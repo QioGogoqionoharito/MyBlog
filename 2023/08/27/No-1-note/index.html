@@ -23,15 +23,15 @@
     
 <link rel="stylesheet" href="/css/loader.css">
 
-    <meta name="description" content="类成员函数">
+    <meta name="description" content="类 1.类的声明与实例化  使用class 类名进行声明类(可以不用先定义类) 类的实例化可以使用 类名 实例名(构造函数) 或 类名 *实例名 &#x3D; new 类名(构造函数)的方法进行实例化 2.成员函数  成员函数一般在类内声明在外部定义   3.构造函数  构造函数与类名相同可以使用实参(形参),的方式进行赋值 内联函数inline通常适用于小型函数 vector 容器在使用类时，类">
 <meta property="og:type" content="article">
 <meta property="og:title" content="No.1 note">
 <meta property="og:url" content="http://example.com/2023/08/27/No-1-note/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="类成员函数">
+<meta property="og:description" content="类 1.类的声明与实例化  使用class 类名进行声明类(可以不用先定义类) 类的实例化可以使用 类名 实例名(构造函数) 或 类名 *实例名 &#x3D; new 类名(构造函数)的方法进行实例化 2.成员函数  成员函数一般在类内声明在外部定义   3.构造函数  构造函数与类名相同可以使用实参(形参),的方式进行赋值 内联函数inline通常适用于小型函数 vector 容器在使用类时，类">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2023-08-27T06:40:12.000Z">
-<meta property="article:modified_time" content="2023-08-27T06:40:46.350Z">
+<meta property="article:modified_time" content="2023-08-27T08:18:10.046Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
     
@@ -184,7 +184,30 @@
 
         <div class="e-content article-entry" itemprop="articleBody">
             
-                <h1 id="类"><a href="#类" class="headerlink" title="类"></a>类</h1><h2 id="成员函数"><a href="#成员函数" class="headerlink" title="成员函数"></a>成员函数</h2>
+                <h1 id="类"><a href="#类" class="headerlink" title="类"></a>类</h1><blockquote>
+<h2 id="1-类的声明与实例化"><a href="#1-类的声明与实例化" class="headerlink" title="1.类的声明与实例化"></a>1.类的声明与实例化</h2></blockquote>
+<ul>
+<li>使用class 类名进行声明类(可以不用先定义类)<br></li>
+<li>类的实例化可以使用 类名 实例名(构造函数) 或 类名 *实例名 &#x3D; new 类名(构造函数)的方法进行实例化<br><blockquote>
+<h2 id="2-成员函数"><a href="#2-成员函数" class="headerlink" title="2.成员函数"></a>2.成员函数</h2></blockquote>
+</li>
+<li>成员函数一般在类内声明在外部定义<br></li>
+</ul>
+<blockquote>
+<h2 id="3-构造函数"><a href="#3-构造函数" class="headerlink" title="3.构造函数"></a>3.构造函数</h2></blockquote>
+<ul>
+<li>构造函数与类名相同可以使用实参(形参),的方式进行赋值<br></li>
+<li>内联函数inline通常适用于小型函数<br></li>
+<li>vector 容器在使用类时，类需要有默认的构造函数<br></li>
+<li>友元函数friend，使用修饰词后可以直接调用私有参数<br><blockquote>
+<h2 id="4-this指针"><a href="#4-this指针" class="headerlink" title="4.this指针"></a>4.this指针</h2></blockquote>
+</li>
+<li>通常指向该类本身,可以使用return *this返回修改参数后的实例<br><blockquote>
+<h2 id="5-静态资源"><a href="#5-静态资源" class="headerlink" title="5.静态资源"></a>5.静态资源</h2></blockquote>
+</li>
+<li>使用static修饰后的值不能在类中进行初始化，必须在类外使用类名::静态资源名进行初始化</li>
+</ul>
+
             
         </div>
         <footer class="article-footer">
@@ -199,28 +222,6 @@
     </div>
     
         
-    <nav id="article-nav" class="wow fadeInUp">
-        
-        
-            <div class="article-nav-link-wrap article-nav-link-right">
-                
-                    
-                    
-                        <img data-src="/images/banner.jpg" data-sizes="auto" alt="Hello World"
-                             class="lazyload">
-                    
-                
-                <a href="/2023/08/27/hello-world/"></a>
-                <div class="article-nav-caption">Older</div>
-                <h3 class="article-nav-title">
-                    
-                        Hello World
-                    
-                </h3>
-            </div>
-        
-    </nav>
-
 
     
 </article>
@@ -247,7 +248,7 @@
         <div class="sidebar-state">
             <div class="sidebar-state-article">
                 <div>Posts</div>
-                <div class="sidebar-state-number">2</div>
+                <div class="sidebar-state-number">1</div>
             </div>
             <div class="sidebar-state-category">
                 <div>Categories</div>
@@ -346,10 +347,10 @@
             
                 <div>
                     <span class="icon-brush"></span>
-                    80
+                    242
                     &nbsp;|&nbsp;
                     <span class="icon-coffee"></span>
-                    00:02
+                    00:01
                 </div>
             
             
@@ -376,7 +377,7 @@
         <div class="sidebar-state">
             <div class="sidebar-state-article">
                 <div>Posts</div>
-                <div class="sidebar-state-number">2</div>
+                <div class="sidebar-state-number">1</div>
             </div>
             <div class="sidebar-state-category">
                 <div>Categories</div>
